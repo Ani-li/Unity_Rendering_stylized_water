@@ -1,0 +1,26 @@
+{
+  "name": "com.unity.ide.rider",
+  "displayName": "JetBrains Rider Editor",
+  "description": "The JetBrains Rider Editor package provides an integration for using the JetBrains Rider IDE as a code editor for Unity. It adds support for generating .csproj files for code completion and auto-discovery of installations.",
+  "version": "3.0.21",
+  "unity": "2019.2",
+  "unityRelease": "6f1",
+  "dependencies": {
+    "com.unity.ext.nunit": "1.0.6"
+  },
+  "relatedPackages": {
+    "com.unity.ide.rider.tests": "3.0.21"
+  },
+  "_upm": {
+    "changelog": "[RIDER-92424](https://youtrack.jetbrains.com/issue/RIDER-92424) JetBrains Rider Editor 3.0.20 package Update for Unity, Cause's Rider to Slows to a Crawl after updating\n[RIDER-92419](https://youtrack.jetbrains.com/issue/RIDER-92419) JetBrains Rider Editor 3.0.20 for Unity has duplicate assemblies loaded into runtime"
+  },
+  "upmCi": {
+    "footprint": "c94cbc94d82ddfe1b0222d58d732eb62b80d2085"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git",
+    "type": "git",
+    "revision": "bb7732dcafe867368246b7661dda05368b74dd8e"
+  }
+}

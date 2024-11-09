@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated using SpeedTree tools -->
+<Materials Count="1" Packer="Unity">
+	<Material ID="9999" Name="gigantic_tree_Billboard_Mat" TwoSided="0" UserData="" VertexOpacity="1" FlipNormalsOnBackside="1" Billboard="1">
+		<Map Index="0" File="gigantic_tree_Billboard_Color.png" />
+		<Map Index="1" File="gigantic_tree_Billboard_Normal.png" />
+		<Map Index="2" File="gigantic_tree_Billboard_Extra.png" />
+		<Map Index="3" File="gigantic_tree_Billboard_Subsurface.png" />
+	</Material>
+</Materials>

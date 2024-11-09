@@ -1,0 +1,22 @@
+{
+  "name": "com.unity.burst",
+  "displayName": "Burst",
+  "version": "1.8.4",
+  "unity": "2020.3",
+  "description": "Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM.",
+  "dependencies": {
+    "com.unity.mathematics": "1.2.1"
+  },
+  "_upm": {
+    "changelog": "### Fixed\n- Fixed possible deadlock when compiling after domain reload\n- Fixed incorrect codegen when having multiple `try`-`finally` blocks inside another `try`-`finally` block (for example from `foreach` loops)\n- Domain completed stall when switching between debug/release scripting modes when burst compilation is needed for items in the new domain.\n- Fixed \"An item with the same key has already been added\" compiler error that could occur when duplicate field names were present in obfuscated assemblies\n- Fixed \"Failed to find entry-points: Mono.Cecil.AssemblyResolutionException: Failed to resolve assembly\" error that was displayed when Burst tried to compile an assembly that had C# compilation errors\n- Fixed code-gen issue where side-effects before a conditional throw would be ignored\n- Burst managed breakpoints might fail to work, after a domain reload.\n- Fixed that some changes made to versioned assemblies wouldn't get picked up and compiled by Burst\n- Fixed line highlight and register highlight not clearing when Burst Inspector settings change.\n- Fixed Burst compilation error relating to `UnityEngine.Assertions.Assert.Fail` when doing player builds with high stripping settings\n- Fixed a `BadImageFormatException` error that could occur in some player builds\n- Neon intrinsics: fixed default target CPU for Arm Mac Standalone builds\n- Fixed `MethodDecoderException` when trying to call `CompileFunctionPointer` on a nested static method\n- Fixed incorrect pdb path for AoT dll libraries\n- Fixed inaccurate stacktraces when throwing an exception from Burst in specific cases\n- Fixed \"An item with the same key has already been added\" hashing error that could occur if obfuscators changed nested type names to have the same name and different namespaces\n\n### Added\n- Add support for ChromeOS in Unity versions 2020.3 and 2019.4.\n- Windows/ARM64 targeting support\n\n### Removed\n\n### Changed\n- Changed Burst Inspector input handling so that arrow-keys can be used to select in search boxes.\n- Made Burst Inspector's target job load asynchronous.\n\n### Known Issues"
+  },
+  "upmCi": {
+    "footprint": "cdca3ffbec209afe17041fdcaf0aeda34f56f5ff"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html",
+  "repository": {
+    "url": "git@github.cds.internal.unity3d.com:unity/burst",
+    "type": "git",
+    "revision": "b05f7d57a035997c1abc0c742e812dadd107d467"
+  }
+}
