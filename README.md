@@ -1,2 +1,2 @@
-# Unity_Rendering_stylized_water
+# Unity stylized water
  stylized water
